@@ -13,7 +13,7 @@ module.exports = binwrap({
   urls: {
     "darwin-x64": root + "-osx64.tgz",
     "linux-x64": root + "-linux64.tgz",
-    "win32-x64": root + "-windows32.zip",
-    "win32-ia32": root + "-windows64.zip"
+    "win32-x64": root + "-windows64.zip",
+    "win32-ia32": root + "-windows32.zip"
   }
 });
