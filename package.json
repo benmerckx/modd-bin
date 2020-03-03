@@ -1,0 +1,24 @@
+{
+  "name": "modd-bin",
+  "version": "0.8.0",
+  "description": "modd binary",
+  "preferGlobal": true,
+  "main": "index.js",
+  "scripts": {
+    "install": "binwrap-install",
+    "prepare": "binwrap-prepare",
+    "test": "binwrap-test",
+    "prepublish": "npm test"
+  },
+  "license": "BSD-3-Clause",
+  "files": [
+    "index.js",
+    "bin"
+  ],
+  "bin": {
+    "modd": "bin/modd"
+  },
+  "dependencies": {
+    "binwrap": "^0.2.2"
+  }
+}
