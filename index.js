@@ -11,8 +11,8 @@ module.exports = binwrap({
     "modd"
   ],
   urls: {
-    "darwin-x64": root + "-osx64.gz",
-    "darwin-arm64": root + "-osx64.gz",
+    "darwin-x64": root + "-osx64.tgz",
+    "darwin-arm64": root + "-osx64.tgz",
     "linux-x64": root + "-linux64.tgz",
     "win32-x64": root + "-windows64.zip"
   }
