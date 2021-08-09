@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "install": "binwrap-install",
-    "prepare": "binwrap-prepare",
+    "postinstall": "binwrap-prepare",
     "test": "binwrap-test",
     "prepublish": "npm test"
   },
