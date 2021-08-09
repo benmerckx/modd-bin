@@ -12,6 +12,7 @@ module.exports = binwrap({
   ],
   urls: {
     "darwin-x64": root + "-osx64.gz",
+    "darwin-arm64": root + "-osx64.gz",
     "linux-x64": root + "-linux64.tgz",
     "win32-x64": root + "-windows64.zip"
   }
