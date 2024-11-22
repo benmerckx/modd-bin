@@ -19,6 +19,6 @@
     "modd": "bin/modd"
   },
   "dependencies": {
-    "binwrap": "benmerckx/binwrap"
+    "@benmerckx/binwrap": "^0.2.2"
   }
 }

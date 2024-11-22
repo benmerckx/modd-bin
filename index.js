@@ -1,4 +1,4 @@
-var binwrap = require("binwrap");
+var binwrap = require("@benmerckx/binwrap");
 var path = require("path");
 
 var packageInfo = require(path.join(__dirname, "package.json"));
