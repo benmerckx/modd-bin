@@ -1,7 +1,7 @@
 var binwrap = require("@benmerckx/binwrap");
 var path = require("path");
 
-var version = 'v0.8'
+var version = '0.8'
 var root = `https://github.com/cortesi/modd/releases/download/v${version}/modd-${version}`;
 
 module.exports = binwrap({
